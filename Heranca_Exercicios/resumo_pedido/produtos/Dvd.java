@@ -1,5 +1,3 @@
-package produtos;
-
 public class Dvd extends Produto {
     private String diretor;
     private String genero;
