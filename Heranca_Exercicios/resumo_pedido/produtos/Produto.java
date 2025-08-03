@@ -1,3 +1,5 @@
+package produtos;
+
 public abstract class Produto {
     protected String titulo;
     protected int ano;
