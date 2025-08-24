@@ -1,5 +1,6 @@
 import provedores.*;
 import java.util.Locale;
+
 public class Program {
     public static void main(String[] args) {
         Locale.setDefault(new Locale("pt", "BR"));
@@ -57,3 +58,4 @@ public class Program {
         System.out.printf("%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());        
     }
 }
+

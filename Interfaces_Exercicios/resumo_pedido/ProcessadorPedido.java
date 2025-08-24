@@ -1,3 +1,5 @@
+import provedores.*;
+
 public class ProcessadorPedido {
     private ProvedorFrete provedorFrete;
 
@@ -10,3 +12,4 @@ public class ProcessadorPedido {
         pedido.setFrete(freteCalculado);
     }
 }
+

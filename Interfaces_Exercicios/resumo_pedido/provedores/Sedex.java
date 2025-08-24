@@ -1,3 +1,5 @@
+package provedores;
+
 public class Sedex implements ProvedorFrete {
     @Override
     public Frete calcularFrete(double peso, double valor) {
@@ -15,3 +17,4 @@ public class Sedex implements ProvedorFrete {
         return TipoProvedorFrete.SEDEX;
     }
 }
+

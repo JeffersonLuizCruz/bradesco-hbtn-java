@@ -1,3 +1,5 @@
+import provedores.Frete;
+
 public class Pedido {
     private int codigo;
     private double peso;
@@ -30,3 +32,4 @@ public class Pedido {
         this.frete = frete;
     }
 }
+
